@@ -1,0 +1,112 @@
+.profile {
+    width: 300px;
+    height: 250px;
+    border: 1px solid #ccc;
+    padding: 20px; 
+    margin: 20px;
+    float: left;
+    border-radius: 20%;
+    align-items :center;
+    background-color:#EFEDE6;
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    align-self: center;
+    margin:10px;
+  }
+  
+  .profile h3 {
+    margin-top: 20px;  
+  }
+  
+  .profile p {
+    color: #777;
+    font-weight: bold;
+    font-family: 'Comic Sans MS';
+  }
+  body {
+    background-color:#141526;
+    justify-content: center;
+  }
+  .container{
+    justify-content: center;
+    align-items: center;
+    width: 77%; 
+    margin: 0 auto;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+    color:aliceblue;
+  }
+  .Mentor{
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px; 
+    margin: 20px;
+    margin-left:35%;
+    margin-right: 50%;
+    float:left;
+    border-radius: 5%;
+    align-items :center;
+    background-color: #27005D;
+    
+  }
+  .Mentor img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+  }
+  .Mentor h3{
+    color:#AED2FF;
+  }
+  .Mentor p{
+    color:white;
+  }
+  .Description {
+    margin: 80px;
+    /* margin-left: 30px; */
+  }
+  .Description p{
+    text-wrap:wrap;
+    font-size: 130%;
+    color:#AED2FF
+    
+  }
+  @media (max-width: 600px) {
+
+    .container {
+      width: 90%;
+      display:flex;
+      align-items:center;
+      justify-content: center;
+    }
+    .profile, 
+    .Mentor {
+      width: 100%; 
+      margin: 10px 0;
+      float: none;
+    }
+    
+    .Mentor {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    
+    .Description {
+      margin: 20px;
+    }
+  
+    .Description p {
+      font-size: 100%;
+    }
+  
+  }

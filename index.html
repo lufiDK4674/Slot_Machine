@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Slot Machine - Home</title>
+    <link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#" class="menu-btn">Home</a>
+        <a href="About.html" class="menu-btn">About</a>
+        <a href="#" class="menu-btn">Contact Us</a>
+    </nav>
+    <div class="box">
+        <span class="borderLine"></span>
+        <form id="details-form">
+            <h2>Details</h2>
+            <div class="inputbox">
+                <input type="text" required="required" id="playerName">
+                <span>Player Name</span>
+                <i></i>
+            </div>
+            <div class="inputbox">
+                <input id="playerPoints" type="number" min="10000" required="required">
+                <span>Points</span>
+                <i></i>
+            </div>
+
+            <script src="details.js"></script>
+            <br><br>
+            <p align="center"><input type="submit" value="Play" onclick="verifyAge(event)" Enter id="login_submit_btn">
+            </p>
+            <div class="ageCheck">
+                <input  id="ageCheck" type="checkbox">
+                <label for="checkbox">I am 18 +</label>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <a href="#">&copy; 2023 | Group 2 Mini Project </a>
+    </footer>
+</body>
+
+</html>
