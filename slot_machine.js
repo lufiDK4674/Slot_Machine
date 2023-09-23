@@ -1,10 +1,3 @@
-/*****************************************************************************
- *  script.js
- *  ---------
- *  Where all the fun happens :)
- *  
- *  Created by: E.Cope						Last edit: 3/27/21
- *****************************************************************************/
 
 //store the classes and ids we'll be manipulating
 const iconIdsArr = ["#icon-1", "#icon-2", "#icon-3", "#icon-4", "#icon-5"];

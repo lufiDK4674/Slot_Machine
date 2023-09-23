@@ -2,11 +2,9 @@
     width: 300px;
     height: 250px;
     border: 1px solid #ccc;
-    padding: 20px; 
-    margin: 20px;
-    float: left;
-    border-radius: 20%;
-    align-items :center;
+    padding: 5px; 
+    margin: 15px;
+    border-radius: 10%;
     background-color:#EFEDE6;
     display:flex; 
     justify-content: center; 
@@ -34,13 +32,20 @@
   body {
     background-color:#141526;
     justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px
   }
   .container{
+    display:flex;
     justify-content: center;
     align-items: center;
     width: 77%; 
     margin: 0 auto;
     text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   h1 {
     text-align: center;
@@ -49,16 +54,17 @@
   }
   .Mentor{
     width: 300px;
+    height: 230px;
     border: 1px solid #ccc;
-    padding: 20px; 
-    margin: 20px;
-    margin-left:35%;
-    margin-right: 50%;
-    float:left;
-    border-radius: 5%;
-    align-items :center;
-    background-color: #27005D;
-    
+    padding: 5px; 
+    margin: 15px;
+    border-radius: 10%;
+    background-color:#27005D;
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
   }
   .Mentor img {
     width: 100px;
@@ -72,8 +78,9 @@
     color:white;
   }
   .Description {
-    margin: 80px;
-    /* margin-left: 30px; */
+    margin: 50px;
+    margin-left: 60px;
+    margin-top: 20px;
   }
   .Description p{
     text-wrap:wrap;
@@ -81,32 +88,25 @@
     color:#AED2FF
     
   }
-  @media (max-width: 600px) {
 
-    .container {
-      width: 90%;
-      display:flex;
-      align-items:center;
-      justify-content: center;
-    }
-    .profile, 
-    .Mentor {
-      width: 100%; 
-      margin: 10px 0;
-      float: none;
-    }
+    @media (max-width: 600px) {
+
+      .container {
+        flex-direction: column;
+      }
     
-    .Mentor {
-      margin-left: 0;
-      margin-right: 0;
-    }
+      .profile, 
+      .Mentor {
+        width: 80%;
+        margin: 10px auto; 
+      }
     
-    .Description {
-      margin: 20px;
+      .Description {
+        margin: 20px;
+      }
+    
+      .Description p {
+        font-size: 100%;
+      }
+    
     }
-  
-    .Description p {
-      font-size: 100%;
-    }
-  
-  }
